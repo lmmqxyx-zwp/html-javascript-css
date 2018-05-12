@@ -4,8 +4,10 @@
 
 /* 主体样式 */
 body {
-    border: dashed green 1px;/*虚线框*/
-    height: 800px;/*高度*/
+    border-left: dashed green 1px;/* 辅助虚线框 */
+    border-right: dashed green 1px;
+    width: 1887px;
+    height: 100%;/*高度*/
     margin: 7px;
     padding: 7px;
 }
@@ -29,7 +31,6 @@ body {
     /*vertical-align: middle; 垂直居中 */
     line-height: 70px;
     margin: 3px;
-    position: relative;
     float: left;
     font-family: fantasy;
     font-size: 18px;
@@ -48,22 +49,22 @@ body {
     /*vertical-align: middle; 垂直居中 */
     line-height: 70px;
     margin: 3px;
-    position: relative;
     float: left;
     font-family: fantasy;
     font-size: 18px;
 }
 
 .js-fieldset {
+    margin-top: 30px;
     border-color: red;
     border-radius: 5px;
     color: red;
-    padding-left: 13px;
+    padding-left: 22px;
 }
 
 .css-fieldset {
     border-color: red;
     border-radius: 5px;
     color: red;
-    padding-left: 13px;
+    padding-left: 22px;
 }
